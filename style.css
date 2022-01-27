@@ -69,7 +69,7 @@ font-size: 8px;
     color: #727272;
 }
 
-.management-cta{
+.management-cta, .easy-cta{
     font-size: 2em !important;
     color: white;
     padding: 0.6em 1.6em;
@@ -79,10 +79,9 @@ font-size: 8px;
     box-shadow:
     5.9px 2.7px 62.1px rgba(8, 28, 116, 0.025),
     77px 35px 136px rgba(8, 28, 116, 0.05);
-
 }
 
-.management-cta:hover{
+.management-cta:hover, .easy-cta:hover{
     background-color:#006cb4;
 }
 
