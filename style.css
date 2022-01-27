@@ -2,6 +2,21 @@ body{
 font-size: 8px;
 }
 
+.slider-banner-contain{
+    padding: 50px 0px;
+    position: relative;
+    top:0;
+    width:86%;
+    margin: 0 auto !important;
+    height:100%;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap:30px;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color:#e0e9f3;
+}
 
 /*Ignore anything on top*/
 
@@ -13,12 +28,12 @@ font-size: 8px;
     gap:10px;
 }
 
-.management-image{
+.management-image, .easy-image{
     max-width:500px;
     min-width:380px;
 }
 
-.management-text{
+.management-text, .easy-text{
     text-align: left;
     font-family: 'Helvetica' !important;
     min-width:300px;
@@ -26,21 +41,26 @@ font-size: 8px;
     margin-top:20px;
 }
 
-.management-tag{
+.management-tag, .easy-tag{
     font-weight: bold !important;
     letter-spacing: 0.1em;
     font-size: 1.5em !important;
     color: #00A1E1;
 }
 
-.management-title{
+.management-title, .easy-title{
     font-size: 3em;
     font-weight: bold;
     margin-bottom: 0em;
+    text-transform: none;
     color: #444;
 }
 
-.management-description{
+.easy-title{
+    color: #003A5D;
+}
+
+.management-description, .easy-description{
     font-family: 'Helvetica';
     font-size: 2em;
     line-height: 1.5em;
@@ -58,11 +78,9 @@ font-size: 8px;
     box-shadow:
     5.9px 2.7px 62.1px rgba(8, 28, 116, 0.025),
     77px 35px 136px rgba(8, 28, 116, 0.05);
-    cursor:pointer;
 
 }
 
 .management-cta:hover{
     background-color:#006cb4;
-    cursor:pointer;
 }
